@@ -1,0 +1,262 @@
+/*GENERAL*/
+body
+{
+	font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: bold;
+
+}
+
+img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+section
+{
+	padding: 45px 0 80px 0;
+}
+
+section .heading
+{
+	text-align: center;
+	padding-bottom: 40px;
+
+}
+
+section .heading h2
+{
+	text-transform: uppercase;
+
+}
+
+ul,ol
+{
+	list-style: none;
+}
+
+.red-divider
+{
+	width: 100px;
+	height: 2px;
+	background: #0873AA;
+	margin: 10px auto;
+}
+
+.white-divider
+{
+	width: 100px;
+	height: 2px;
+	background: #fff;
+	margin: 10px auto;
+}
+
+
+
+
+/* ABOUT */
+
+#about
+{
+	padding-top: 100px;
+	background: #0873AA;
+}
+
+.profile-picture
+{
+	text-align: center;
+	margin: 0 auto;
+	float: none;
+}
+
+#about .heading h1
+{
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#about .heading h3
+{
+	color: #000;
+}
+
+.button1
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	border: 1px solid #fff;
+	display: inline-block;
+	margin-top: 20px;
+	padding: 18px 50px;
+	border-radius: 3px;
+	transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover
+{
+	background: #fff;
+	color: #0873AA;
+	text-decoration: none;
+}
+
+/* SKILLS */
+#skills
+{
+	background: #fff;
+
+}
+
+#skills .heading h2
+{
+	color: #0873AA;
+}
+
+#skills .progress
+{
+	height: 17%;
+	margin: 30px 20px;
+	background: #ddd;
+}
+
+#skills .progress-bar
+{
+	background: #0873AA;
+}
+
+#skills .progress h5
+{
+	text-shadow: 1px 1px 1px #000;
+}
+
+/* EXPERIENCE */
+
+#experience
+{
+	background: #0873AA;
+}
+
+#experience .heading h2
+{
+	color: #fff;
+
+}
+
+.timeline
+{
+	padding: 30px 10px;
+	position: relative;
+}
+
+.timeline:before
+{
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	content: " ";
+	width: 5px;
+	background: #333;
+	left: 50%;
+	margin-left: -2,5px;
+}
+
+.timeline > li
+{
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.timeline > li:after
+{
+	clear: both;
+}
+
+.timeline > li:before, .timeline > li:after
+{
+	content: " ";
+	display: table;
+}
+
+.timeline l1 .timeline-badge
+{
+	color: #0873AA;
+	width: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	top: 16px;
+	left: 50%
+	margin-left: -25%;
+	background-color: #ddd;
+	border-radius: 50%;
+}
+
+.timeline-panel-container
+{
+	width: 50%;
+	float: left;
+}
+
+.timeline-panel-container-inverted
+{
+	width: 50%;
+	float: right;
+}
+
+.timeline-panel
+{
+	width: 90%;
+	float: right;
+	margin-right: 40px;
+	border: 1px solid #d4d4d4;
+	border-radius: 7px;
+	padding: 20px 25px;
+	position: relative;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.175);
+	background: #fff;
+}
+
+.timeline-panel-container-inverted .timeline-panel
+{
+	float: left;
+	margin-left: 40px;
+}
+
+.timeline-panel:after
+{
+	position: absolute;
+	top: 27px;
+	right: -14px;
+	display: inline-block;
+	border-top: 14px solid transparent;
+	border-left: 14px solid #fff;
+	border-right: 0 solid #fff;
+	border-bottom: 14px solid transparent;
+	content: " ";
+}
+
+.timeline-panel-container-inverted >.timeline-panel:after
+{
+	border-left-width: 0;
+	border-right-width: 14px;
+	left: -14px;
+	right: auto;
+}
+
+.timeline-heading h3
+{
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.timeline-heading h4
+{
+	margin-top: 5px;
+	font-size: 20px;
+	color: #0873AA;
+}
