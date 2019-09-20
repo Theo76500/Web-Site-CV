@@ -260,3 +260,60 @@ ul,ol
 	font-size: 20px;
 	color: #0873AA;
 }
+
+/* EDUCATION */
+
+#education
+{
+	background: #fff;
+}
+
+#education .heading h2
+{
+	color: #0873AA;
+}
+
+.education-block
+{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
+	background: #ddd;
+	border-radius: 10px;
+	border: 2px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.education-block h5
+{
+	color: #888;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+.education-block h3
+{
+	color: #0873AA;
+}
+
+.education-block h4
+{
+	margin-bottom: 20px;
+}
+
+.educaiton-block glyphicon
+{
+	font-size: 40px;
+}
+
+.education-block p
+{
+	font-weight: bold;
+}
+
+.education-block .red-divider
+{
+	margin-bottom: 20px;
+}
+
