@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-<!-- BOOTSTRAP -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- JQUERY -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-
-	<meta charset="utf-8"> 
+	<meta charset="utf-8">  
 	<meta name = "viewport" content="width=device-width, initial-scale=1">
 
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -25,11 +19,32 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavBar">
+				<ul class="nav navbar-nav">
+					<li><a href="#about">Moi</a></li>
+					<li><a href="#skills">Compétences</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#education">Education</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
 	<section id="about" class="container-fluid">
 		<div class="col-xs-8 col-md-4 profile-picture"> 
-			<img src="me.jpg" alt="Theo" class="rounded-circle"> 
+			<img src="me.jpg" alt="Theo" class="img-circle"> 
 		</div>
 
 		<div class="heading">
@@ -122,7 +137,7 @@
 							<div class="timeline-heading">
 								<h3>Exia CESi</h3>
 								<h4>Étudiant</h4>
-								<p class="text-muted"><small class="glyphicon glyphicon-time"></small>2018 - Aujourd'hui</p>
+								<p class="text-muted"><small class="glyphicon glyphicon-time"></small>  2018 - Aujourd'hui</p>
 							</div>
 							<div class="timeline-body">
 								<p>Année 1 (Cycle préparatoire) - 2018/2019</p>
@@ -139,7 +154,7 @@
 							<div class="timeline-heading">
 								<h3>SOGÉDIS</h3>
 								<h4>Préparateur de commande</h4>
-								<p class="text-muted"><small class="glyphicon glyphicon-time"></small>2017-2018-2019</p>
+								<p class="text-muted"><small class="glyphicon glyphicon-time"></small>  2017-2018-2019</p>
 							</div>
 							<div class="timeline-body">
 								<p>Sortie de pièce.</p>
@@ -179,6 +194,13 @@
 			</div>
 		</div>
 	</section>
+
+	<footer class="text-center">
+		<a href="#about">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+		</a>
+		<h5>© 2019 Langlois Théo</h5>
+	</footer>
 
 </body>
 </html>
